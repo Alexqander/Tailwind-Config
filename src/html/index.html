@@ -1,66 +1,49 @@
-<script src="https://cdn.tailwindcss.com"></script>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../css/output.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
   </head>
   <body>
-    <section class="bg-white">
-      <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
-        <div class="mx-auto max-w-3xl text-center">
-          <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
-            Trusted by eCommerce Businesses
-          </h2>
+    <div class="container">
+      <article
+        class="overflow-hidden rounded-lg border border-gray-100 shadow-sm">
+        <img
+          alt="Office"
+          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+          class="h-56 w-full object-cover" />
 
-          <p class="mt-4 text-gray-500 sm:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            dolores laborum labore provident impedit esse recusandae facere
-            libero harum sequi.
+        <div class="p-4 sm:p-6">
+          <a href="#">
+            <h3 class="text-lg font-medium text-gray-900">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h3>
+          </a>
+
+          <p class="mt-2 text-sm leading-relaxed text-gray-500 line-clamp-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+            dolores, possimus pariatur animi temporibus nesciunt praesentium
+            dolore sed nulla ipsum eveniet corporis quidem, mollitia itaque
+            minus soluta, voluptates neque explicabo tempora nisi culpa eius
+            atque dignissimos. Molestias explicabo corporis voluptatem?
           </p>
+
+          <a
+            href="#"
+            class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
+            Find out more
+
+            <span
+              aria-hidden="true"
+              class="block transition group-hover:translate-x-0.5">
+              &rarr;
+            </span>
+          </a>
         </div>
-
-        <div class="mt-8 sm:mt-12">
-          <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3">
-            <div
-              class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
-              <dt class="order-last text-lg font-medium text-gray-500">
-                Total Sales
-              </dt>
-
-              <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">
-                $4.8m
-              </dd>
-            </div>
-
-            <div
-              class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
-              <dt class="order-last text-lg font-medium text-gray-500">
-                Official Addons
-              </dt>
-
-              <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">
-                24
-              </dd>
-            </div>
-
-            <div
-              class="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
-              <dt class="order-last text-lg font-medium text-gray-500">
-                Total Addons
-              </dt>
-
-              <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">
-                86
-              </dd>
-            </div>
-          </dl>
-        </div>
-      </div>
-    </section>
-
-    <script src="./tailwind.config.js"></script>
+      </article>
+    </div>
   </body>
 </html>
